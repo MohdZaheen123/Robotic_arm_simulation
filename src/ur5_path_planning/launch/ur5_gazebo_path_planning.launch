@@ -1,0 +1,12 @@
+<launch>
+  <!-- Launch Gazebo with UR5 -->
+  <include file="$(find ur_gazebo)/launch/ur5_bringup.launch"/>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <!-- <rosparam file="$(find ur_gazebo)/config/ur5_controllers.yaml" command="load"/> -->
+
+
+  <!-- Run the path planning node -->
+  <!-- <node name="ur5_path_planner" pkg="ur5_path_planning" type="ur5_path_planner.py" output="screen"/> -->
+</launch>
+

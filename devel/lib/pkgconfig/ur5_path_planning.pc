@@ -1,0 +1,8 @@
+prefix=/home/zaheen/ur5_ws/devel
+
+Name: ur5_path_planning
+Description: Description of ur5_path_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
